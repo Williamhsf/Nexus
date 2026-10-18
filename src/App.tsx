@@ -5,7 +5,7 @@ import { SpotlightCursor } from "./components/effects/SpotlightCursor";
 // import { Hero } from './sections/Hero';
 // import { TrustedBy } from './sections/TrustedBy';
 // import { Features } from './sections/Features';
-// import { BentoGrid } from './sections/BentoGrid';
+import { BentoGrid } from "./sections/BentoGrid";
 // import { Statistics } from './sections/Statistics';
 // import { Pricing } from './sections/Pricing';
 // import { Testimonials } from './sections/Testimonials';
@@ -30,6 +30,10 @@ const App = memo(function App() {
 
       {/* Layout */}
       <Navbar />
+
+      <main>
+        <BentoGrid />
+      </main>
     </>
   );
 });
