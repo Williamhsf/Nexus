@@ -2,9 +2,9 @@ import { memo } from "react";
 import { Navbar } from "./components/layout/Navbar";
 import { ProgressBar } from "./components/ui/ProgressBar";
 import { SpotlightCursor } from "./components/effects/SpotlightCursor";
-// import { Hero } from './sections/Hero';
-// import { TrustedBy } from './sections/TrustedBy';
-// import { Features } from './sections/Features';
+import { Hero } from "./sections/Hero";
+import { TrustedBy } from "./sections/TrustedBy.tsx";
+import { Features } from "./sections/Features";
 import { BentoGrid } from "./sections/BentoGrid";
 // import { Statistics } from './sections/Statistics';
 // import { Pricing } from './sections/Pricing';
@@ -32,6 +32,9 @@ const App = memo(function App() {
       <Navbar />
 
       <main>
+        <Hero />
+        <TrustedBy />
+        <Features />
         <BentoGrid />
       </main>
     </>

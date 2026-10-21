@@ -278,7 +278,7 @@ export function BentoGrid() {
                   ))}
                 </div>
                 {/* Security side */}
-                <div className=" lg:flex flex-col justify-center rounded-xl bg-black/40 border border-white/5 p-5">
+                <div className="hidden lg:flex flex-col justify-center rounded-xl bg-black/40 border border-white/5 p-5">
                   <p className="text-sm text-white/60 leading-relaxed mb-4">
                     SOC2 Type II certified. GDPR compliant. End-to-end
                     encryption for all data in transit and at rest.
