@@ -160,7 +160,7 @@ export function BentoGrid() {
           {/* Card 2 — Branch previews */}
           <BentoCard glowColor="rgba(99,102,241,0.1)">
             <div className="flex flex-col h-full">
-              <div className="w-10 h-10 rounded-xl bg-indigo-500/15 border bg-indigo-500/20 flex items-center justify-center mb-4">
+              <div className="w-10 h-10 rounded-xl bg-indigo-500/15 border border-indigo-500/20 flex items-center justify-center mb-4">
                 <GitBranch size={18} className="text-indigo-400" />
               </div>
               <h3 className="text-base font-semibold text-white mb-2">
@@ -192,7 +192,7 @@ export function BentoGrid() {
           {/* Card 3 — Analytics */}
           <BentoCard glowColor="rgba(251,191,36,0.08)">
             <div className="flex flex-col h-full">
-              <div className="w-10 h-10 rounded-xl bg-amber-500/15 border bg-amber-500/20 flex items-center justify-center mb-4">
+              <div className="w-10 h-10 rounded-xl bg-amber-500/15 border border-amber-500/20 flex items-center justify-center mb-4">
                 <Activity size={18} className="text-amber-400" />
               </div>
               <h3 className="text-base font-semibold text-white mb-5">
@@ -228,7 +228,7 @@ export function BentoGrid() {
           >
             <div className="flex flex-col h-full">
               <div className="flex items-center gap-3 mb-5">
-                <div className="w-10 h-10 rounded-xl bg-emerald-500/15 border border-emeral-500/20 flex items-center justify-center">
+                <div className="w-10 h-10 rounded-xl bg-emerald-500/15 border border-emerald-500/20 flex items-center justify-center">
                   <Layers size={18} className="text-emerald-400" />
                 </div>
                 <div>

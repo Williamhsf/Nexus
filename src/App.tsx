@@ -6,7 +6,7 @@ import { Hero } from "./sections/Hero";
 import { TrustedBy } from "./sections/TrustedBy.tsx";
 import { Features } from "./sections/Features";
 import { BentoGrid } from "./sections/BentoGrid";
-// import { Statistics } from './sections/Statistics';
+import { Statistics } from "./sections/Statistics";
 // import { Pricing } from './sections/Pricing';
 // import { Testimonials } from './sections/Testimonials';
 // import { FAQ } from './sections/FAQ';
@@ -36,6 +36,7 @@ const App = memo(function App() {
         <TrustedBy />
         <Features />
         <BentoGrid />
+        <Statistics />
       </main>
     </>
   );
