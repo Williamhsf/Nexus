@@ -1,32 +1,77 @@
-# React + TypeScript + Vite
+# 📚 Créditos e Aprendizado
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Este projeto foi utilizado para fins educacionais, como parte dos meus estudos em desenvolvimento front-end.
+O conteúdo foi acompanhado por meio dos tutoriais do canal AsmrProg, com foco no aprendizado de React, Tailwind CSS, animações e interfaces responsivas.
+O projeto original e os tutoriais podem ser encontrados nos links abaixo:
 
-Currently, two official plugins are available:
+- parte 1 - https://www.youtube.com/watch?v=bg5fG8aQj1w&t=1041s
+- parte 2 - https://www.youtube.com/watch?v=KcqNG3tcq3A&t=4s
+- parte 3 - https://www.youtube.com/watch?v=_nZwQ07iFbA&t=4076s
+  ]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Nexus — Deployment Platform
 
-## React Compiler
+A modern, highly interactive landing page for a cutting-edge deployment platform. Built with React, Vite, and Tailwind CSS, it features a polished dark-themed UI with glassmorphism, dynamic animations, and seamless responsive design.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-0055FF?logo=framer&logoColor=white)
 
-## Expanding the Oxlint configuration
+![Nexus Landing Page Screenshot](./screenshot.png)
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- **Hero section** — Dynamic Aurora background, animated grid, magnetic CTAs, and parallax floating cards
+- **Statistics** — Live numbers highlighting platform scale and reliability
+- **Bento Grid** — Modern, grid-based layout for showcasing core features and capabilities
+- **Testimonials** — Customer reviews and success stories
+- **FAQ** — Expandable accordion for common questions
+- **Call to Action** — High-conversion section to get users started
+- **Sticky header** — Scroll-aware navbar with glassmorphism effects
+- **Advanced Animations** — Scroll reveals, magnetic interactions, and physics-based motion
+
+## Tech Stack
+
+| Technology                                      | Purpose                         |
+| ----------------------------------------------- | ------------------------------- |
+| [React 19](https://react.dev/)                  | UI components and state         |
+| [Vite 8](https://vitejs.dev/)                   | Dev server and production build |
+| [Tailwind CSS 4](https://tailwindcss.com/)      | Utility-first styling           |
+| [Framer Motion](https://www.framer.com/motion/) | Advanced declarative animations |
+| [Lucide React](https://lucide.dev/)             | Icon set                        |
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) 18 or later
+- npm (included with Node.js)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/asmrprog-yt/nexus.git
+
+# Navigate to the project directory
+cd nexus
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Your app will be running at `http://localhost:5173`.
+
+### Production Build
+
+```bash
+# Build the project for production
+npm run build
+
+# Preview the production build locally
+npm run preview
+```

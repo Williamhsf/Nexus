@@ -10,8 +10,8 @@ import { Statistics } from "./sections/Statistics";
 import { Pricing } from "./sections/Pricing";
 import { Testimonials } from "./sections/Testimonials";
 import { FAQ } from "./sections/FAQ";
-// import { CTA } from './sections/CTA';
-// import { Footer } from './sections/Footer';
+import { CTA } from "./sections/CTA";
+import { Footer } from "./sections/Footer";
 
 /**
  * Root application component.
@@ -40,6 +40,8 @@ const App = memo(function App() {
         <Pricing />
         <Testimonials />
         <FAQ />
+        <CTA />
+        <Footer />
       </main>
     </>
   );
