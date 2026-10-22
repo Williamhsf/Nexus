@@ -7,9 +7,9 @@ import { TrustedBy } from "./sections/TrustedBy.tsx";
 import { Features } from "./sections/Features";
 import { BentoGrid } from "./sections/BentoGrid";
 import { Statistics } from "./sections/Statistics";
-// import { Pricing } from './sections/Pricing';
-// import { Testimonials } from './sections/Testimonials';
-// import { FAQ } from './sections/FAQ';
+import { Pricing } from "./sections/Pricing";
+import { Testimonials } from "./sections/Testimonials";
+import { FAQ } from "./sections/FAQ";
 // import { CTA } from './sections/CTA';
 // import { Footer } from './sections/Footer';
 
@@ -37,6 +37,9 @@ const App = memo(function App() {
         <Features />
         <BentoGrid />
         <Statistics />
+        <Pricing />
+        <Testimonials />
+        <FAQ />
       </main>
     </>
   );
